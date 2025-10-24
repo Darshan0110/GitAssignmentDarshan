@@ -14,6 +14,11 @@ namespace RomanNumerals
                     $"Number must be between {MinimumValue} and {MaximumValue} inclusive.");
             }
 
+            if (number == 1)
+            {
+                return "I";
+            }
+
             return "";
         }
 
