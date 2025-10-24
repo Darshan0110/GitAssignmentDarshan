@@ -77,12 +77,20 @@ namespace RomanNumerals.Tests
             Assert.Equal("II", result);
         }
 
-         [Fact]
+        [Fact]
         public void Converts10ToX()
         {
             string result = _converter.Convert(10);
 
             Assert.Equal("X", result);
+        }
+        
+        [Fact]
+        public void Converts50ToL()
+        {
+            string result = _converter.Convert(50);
+
+            Assert.Equal("L", result);
         }
     }
 }
