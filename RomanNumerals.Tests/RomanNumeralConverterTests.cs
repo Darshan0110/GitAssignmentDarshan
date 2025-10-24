@@ -92,13 +92,22 @@ namespace RomanNumerals.Tests
 
             Assert.Equal("L", result);
         }
-        
+
         [Fact]
         public void Converts100ToC()
         {
             string result = _converter.Convert(100);
 
             Assert.Equal("C", result);
+        }
+        
+
+        [Fact]
+        public void Converts500ToD()
+        {
+            string result = _converter.Convert(500);
+
+            Assert.Equal("D", result);
         }
     }
 }
