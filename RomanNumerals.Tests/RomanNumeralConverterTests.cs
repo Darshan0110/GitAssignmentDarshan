@@ -84,13 +84,21 @@ namespace RomanNumerals.Tests
 
             Assert.Equal("X", result);
         }
-        
+
         [Fact]
         public void Converts50ToL()
         {
             string result = _converter.Convert(50);
 
             Assert.Equal("L", result);
+        }
+        
+        [Fact]
+        public void Converts100ToC()
+        {
+            string result = _converter.Convert(100);
+
+            Assert.Equal("C", result);
         }
     }
 }
