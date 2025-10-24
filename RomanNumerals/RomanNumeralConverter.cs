@@ -7,8 +7,10 @@ namespace RomanNumerals
 
         private static readonly (int Value, string Symbol)[] RomanNumeralMappings = new[]
         {
+            (10, "X"),
             (5, "V"),
             (1, "I")
+            
         };
 
         public string Convert(int number)
