@@ -68,5 +68,13 @@ namespace RomanNumerals.Tests
 
             Assert.Equal("V", result);
         }
+
+        [Fact]
+        public void Converts2TOII()
+        {
+            string result = _converter.Convert(2);
+
+            Assert.Equal("II", result);
+        }
     }
 }
