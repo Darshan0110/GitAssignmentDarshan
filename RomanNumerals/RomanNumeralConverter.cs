@@ -5,6 +5,12 @@ namespace RomanNumerals
         private const int MinimumValue = 1;
         private const int MaximumValue = 3000;
 
+        private static readonly (int Value, string Symbol)[] RomanNumeralMappings = new[]
+        {
+            (5, "V"),
+            (1, "I")
+        };
+
         public string Convert(int number)
         {
             if (IsOutsideValidRange(number))
@@ -14,24 +20,28 @@ namespace RomanNumerals
                     $"Number must be between {MinimumValue} and {MaximumValue} inclusive.");
             }
 
-            if (number == 5)
-            {
-                return "V";
-            }
-
-            if (number == 1)
-            {
-                return "I";
-            }
-
-            return "";
-        }            
-        
+            return BuildRomanNumeral(number);
+        }
 
         private bool IsOutsideValidRange(int number)
         {
             return number < MinimumValue || number > MaximumValue;
         }
-        
+
+        private string BuildRomanNumeral(int number)
+        {
+            string result = "";
+
+            foreach (var (value, symbol) in RomanNumeralMappings)
+            {
+                while (number >= value)
+                {
+                    result += symbol;
+                    number -= value;
+                }
+            }
+
+            return result;
+        }
     }
 }
