@@ -100,7 +100,7 @@ namespace RomanNumerals.Tests
 
             Assert.Equal("C", result);
         }
-        
+
 
         [Fact]
         public void Converts500ToD()
@@ -109,5 +109,17 @@ namespace RomanNumerals.Tests
 
             Assert.Equal("D", result);
         }
+
+
+        
+        [Fact]
+        public void Converts1000ToM()
+        {
+            string result = _converter.Convert(1000);
+
+            Assert.Equal("M", result);
+        }
+        
+        
     }
 }
