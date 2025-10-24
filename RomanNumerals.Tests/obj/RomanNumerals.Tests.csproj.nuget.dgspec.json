@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\darshan.naidoo\\desktop\\gitAssignmentDarshan\\RomanNumerals.Tests\\RomanNumerals.Tests.csproj": {}
+    "C:\\Users\\darshan.naidoo\\desktop\\GitAssignmentDarshan\\RomanNumerals.Tests\\RomanNumerals.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\darshan.naidoo\\desktop\\gitAssignmentDarshan\\RomanNumerals.Tests\\RomanNumerals.Tests.csproj": {
+    "C:\\Users\\darshan.naidoo\\desktop\\GitAssignmentDarshan\\RomanNumerals.Tests\\RomanNumerals.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\darshan.naidoo\\desktop\\gitAssignmentDarshan\\RomanNumerals.Tests\\RomanNumerals.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\darshan.naidoo\\desktop\\GitAssignmentDarshan\\RomanNumerals.Tests\\RomanNumerals.Tests.csproj",
         "projectName": "RomanNumerals.Tests",
-        "projectPath": "C:\\Users\\darshan.naidoo\\desktop\\gitAssignmentDarshan\\RomanNumerals.Tests\\RomanNumerals.Tests.csproj",
+        "projectPath": "C:\\Users\\darshan.naidoo\\desktop\\GitAssignmentDarshan\\RomanNumerals.Tests\\RomanNumerals.Tests.csproj",
         "packagesPath": "C:\\Users\\darshan.naidoo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\darshan.naidoo\\desktop\\gitAssignmentDarshan\\RomanNumerals.Tests\\obj\\",
+        "outputPath": "C:\\Users\\darshan.naidoo\\desktop\\GitAssignmentDarshan\\RomanNumerals.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\darshan.naidoo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\darshan.naidoo\\desktop\\gitAssignmentDarshan\\RomanNumerals\\RomanNumerals.csproj": {
-                "projectPath": "C:\\Users\\darshan.naidoo\\desktop\\gitAssignmentDarshan\\RomanNumerals\\RomanNumerals.csproj"
+              "C:\\Users\\darshan.naidoo\\desktop\\GitAssignmentDarshan\\RomanNumerals\\RomanNumerals.csproj": {
+                "projectPath": "C:\\Users\\darshan.naidoo\\desktop\\GitAssignmentDarshan\\RomanNumerals\\RomanNumerals.csproj"
               }
             }
           }
@@ -85,14 +85,14 @@
         }
       }
     },
-    "C:\\Users\\darshan.naidoo\\desktop\\gitAssignmentDarshan\\RomanNumerals\\RomanNumerals.csproj": {
+    "C:\\Users\\darshan.naidoo\\desktop\\GitAssignmentDarshan\\RomanNumerals\\RomanNumerals.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\darshan.naidoo\\desktop\\gitAssignmentDarshan\\RomanNumerals\\RomanNumerals.csproj",
+        "projectUniqueName": "C:\\Users\\darshan.naidoo\\desktop\\GitAssignmentDarshan\\RomanNumerals\\RomanNumerals.csproj",
         "projectName": "RomanNumerals",
-        "projectPath": "C:\\Users\\darshan.naidoo\\desktop\\gitAssignmentDarshan\\RomanNumerals\\RomanNumerals.csproj",
+        "projectPath": "C:\\Users\\darshan.naidoo\\desktop\\GitAssignmentDarshan\\RomanNumerals\\RomanNumerals.csproj",
         "packagesPath": "C:\\Users\\darshan.naidoo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\darshan.naidoo\\desktop\\gitAssignmentDarshan\\RomanNumerals\\obj\\",
+        "outputPath": "C:\\Users\\darshan.naidoo\\desktop\\GitAssignmentDarshan\\RomanNumerals\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\darshan.naidoo\\AppData\\Roaming\\NuGet\\NuGet.Config",

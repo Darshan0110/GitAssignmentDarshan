@@ -51,13 +51,22 @@ namespace RomanNumerals.Tests
 
             Assert.Contains("must be between 1 and 3000", exception.Message);
         }
-        
-              [Fact]
+
+        [Fact]
         public void Converts1ToI()
         {
             string result = _converter.Convert(1);
 
             Assert.Equal("I", result);
+        }
+
+
+        [Fact]
+        public void Converts5ToV()
+        {
+            string result = _converter.Convert(5);
+
+            Assert.Equal("V", result);
         }
     }
 }
