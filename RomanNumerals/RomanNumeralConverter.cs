@@ -7,6 +7,7 @@ namespace RomanNumerals
 
         private static readonly (int Value, string Symbol)[] RomanNumeralMappings = new[]
         {
+            (1000, "M"),
             (500, "D"),
             (100, "C"),
             (50, "L"),
