@@ -14,17 +14,24 @@ namespace RomanNumerals
                     $"Number must be between {MinimumValue} and {MaximumValue} inclusive.");
             }
 
+            if (number == 5)
+            {
+                return "V";
+            }
+
             if (number == 1)
             {
                 return "I";
             }
 
             return "";
-        }
+        }            
+        
 
         private bool IsOutsideValidRange(int number)
         {
             return number < MinimumValue || number > MaximumValue;
         }
+        
     }
 }
