@@ -39,7 +39,7 @@ namespace RomanNumerals.Tests
 
             Assert.Contains("must be between 1 and 3000", exception.Message);
         }
-        
+
 
         [Fact]
         public void RejectsNumbersAboveMaximum()
@@ -48,8 +48,16 @@ namespace RomanNumerals.Tests
 
             var exception = Assert.Throws<ArgumentOutOfRangeException>(
                 () => _converter.Convert(tooLarge));
-            
+
             Assert.Contains("must be between 1 and 3000", exception.Message);
+        }
+        
+              [Fact]
+        public void Converts1ToI()
+        {
+            string result = _converter.Convert(1);
+
+            Assert.Equal("I", result);
         }
     }
 }
