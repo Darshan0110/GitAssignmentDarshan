@@ -128,6 +128,29 @@ namespace RomanNumerals.Tests
             Assert.Equal("III", result);
         }
 
+                [Fact]
+        public void Converts8ToVIII_BasicConstruction()
+        {
+            string result = _converter.Convert(8);
+            Assert.Equal("VIII", result);
+        }
+
+        [Fact]
+        public void Converts3ToIII_NoMoreThanThreeSymbols()
+        {
+            string result = _converter.Convert(3);
+            Assert.Equal("III", result);
+            Assert.DoesNotContain("IIII", result);
+        }
+
+        [Fact]
+        public void Converts4ToIV_NotIIII()
+        {
+            string result = _converter.Convert(4);
+            Assert.Equal("IV", result);
+            Assert.DoesNotContain("IIII", result);
+        }
+
         [Fact]
         public void Converts30ToXXX()
         {
