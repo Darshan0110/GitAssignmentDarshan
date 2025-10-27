@@ -111,7 +111,7 @@ namespace RomanNumerals.Tests
         }
 
 
-        
+
         [Fact]
         public void Converts1000ToM()
         {
@@ -119,7 +119,30 @@ namespace RomanNumerals.Tests
 
             Assert.Equal("M", result);
         }
-        
-        
+
+
+        [Fact]
+        public void Converts3ToIII()
+        {
+            string result = _converter.Convert(3);
+            Assert.Equal("III", result);
+        }
+
+        [Fact]
+        public void Converts30ToXXX()
+        {
+            string result = _converter.Convert(30);
+            Assert.Equal("XXX", result);
+        }
+
+        [Fact]
+        public void Converts300ToCCC()
+        {
+            string result = _converter.Convert(300);
+            Assert.Equal("CCC", result);
+
+
+
+        }
     }
 }
