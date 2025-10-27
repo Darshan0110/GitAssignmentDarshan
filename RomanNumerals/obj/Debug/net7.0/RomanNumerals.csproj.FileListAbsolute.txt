@@ -9,3 +9,6 @@ C:\Users\darshan.naidoo\desktop\gitAssignmentDarshan\RomanNumerals\obj\Debug\net
 C:\Users\darshan.naidoo\desktop\gitAssignmentDarshan\RomanNumerals\obj\Debug\net7.0\refint\RomanNumerals.dll
 C:\Users\darshan.naidoo\desktop\gitAssignmentDarshan\RomanNumerals\obj\Debug\net7.0\RomanNumerals.pdb
 C:\Users\darshan.naidoo\desktop\gitAssignmentDarshan\RomanNumerals\obj\Debug\net7.0\ref\RomanNumerals.dll
+C:\Users\darshan.naidoo\desktop\gitassignmentdarshan\RomanNumerals\bin\Debug\net7.0\RomanNumerals.exe
+C:\Users\darshan.naidoo\desktop\gitassignmentdarshan\RomanNumerals\bin\Debug\net7.0\RomanNumerals.runtimeconfig.json
+C:\Users\darshan.naidoo\desktop\gitassignmentdarshan\RomanNumerals\obj\Debug\net7.0\RomanNumerals.genruntimeconfig.cache
