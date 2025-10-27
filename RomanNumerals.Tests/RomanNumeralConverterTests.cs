@@ -144,5 +144,49 @@ namespace RomanNumerals.Tests
 
 
         }
+
+
+        [Fact]
+        public void Converts4ToIV()
+        {
+            string result = _converter.Convert(4);
+            Assert.Equal("IV", result);
+        }
+
+        [Fact]
+        public void Converts9ToIX()
+        {
+            string result = _converter.Convert(9);
+            Assert.Equal("IX", result);
+        }
+
+        [Fact]
+        public void Converts40ToXL()
+        {
+            string result = _converter.Convert(40);
+            Assert.Equal("XL", result);
+        }
+
+        [Fact]
+        public void Converts90ToXC()
+        {
+            string result = _converter.Convert(90);
+            Assert.Equal("XC", result);
+        }
+
+        [Fact]
+        public void Converts400ToCD()
+        {
+            string result = _converter.Convert(400);
+            Assert.Equal("CD", result);
+        }
+
+        [Fact]
+        public void Converts900ToCM()
+        {
+            string result = _converter.Convert(900);
+            Assert.Equal("CM", result);
+        }
+        
     }
 }
