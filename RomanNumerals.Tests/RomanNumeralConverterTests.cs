@@ -244,5 +244,40 @@ namespace RomanNumerals.Tests
             Assert.Equal("MMXXIV", result);
         }
 
+                [Fact]
+        public void Converts3000ToMMM()
+        {
+            string result = _converter.Convert(3000);
+            Assert.Equal("MMM", result);
+        }
+
+        [Fact]
+        public void Converts2999ToMMCMXCIX()
+        {
+            string result = _converter.Convert(2999);
+            Assert.Equal("MMCMXCIX", result);
+        }
+
+        [Fact]
+        public void Converts49ToXLIX()
+        {
+            string result = _converter.Convert(49);
+            Assert.Equal("XLIX", result);
+        }
+
+        [Fact]
+        public void Converts1999ToMCMXCIX()
+        {
+            string result = _converter.Convert(1999);
+            Assert.Equal("MCMXCIX", result);
+        }
+
+        [Fact]
+        public void ResultIsNeverEmptyForValidInput()
+        {
+            string result = _converter.Convert(1);
+            Assert.NotEmpty(result);
+        }
+
     }
 }
