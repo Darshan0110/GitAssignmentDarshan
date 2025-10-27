@@ -187,6 +187,62 @@ namespace RomanNumerals.Tests
             string result = _converter.Convert(900);
             Assert.Equal("CM", result);
         }
-        
+
+        [Fact]
+        public void Converts1984ToMCMLXXXIV()
+        {
+            string result = _converter.Convert(1984);
+            Assert.Equal("MCMLXXXIV", result);
+        }
+
+        [Fact]
+        public void Converts1900ToMCM()
+        {
+            string result = _converter.Convert(1900);
+            Assert.Equal("MCM", result);
+        }
+
+        [Fact]
+        public void Converts444ToCDXLIV()
+        {
+            string result = _converter.Convert(444);
+            Assert.Equal("CDXLIV", result);
+        }
+
+        [Fact]
+        public void Converts1944ToMCMXLIV()
+        {
+            string result = _converter.Convert(1944);
+            Assert.Equal("MCMXLIV", result);
+        }
+
+        [Fact]
+        public void Converts1666ToMDCLXVI()
+        {
+            string result = _converter.Convert(1666);
+            Assert.Equal("MDCLXVI", result);
+        }
+
+        [Fact]
+        public void Converts99ToXCIX()
+        {
+            string result = _converter.Convert(99);
+            Assert.Equal("XCIX", result);
+        }
+
+        [Fact]
+        public void Converts999ToCMXCIX()
+        {
+            string result = _converter.Convert(999);
+            Assert.Equal("CMXCIX", result);
+        }
+
+        [Fact]
+        public void Converts2024ToMMXXIV()
+        {
+            string result = _converter.Convert(2024);
+            Assert.Equal("MMXXIV", result);
+        }
+
     }
 }
