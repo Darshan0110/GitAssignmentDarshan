@@ -133,6 +133,8 @@ namespace RomanNumerals.Tests
         {
             string result = _converter.Convert(8);
             Assert.Equal("VIII", result);
+            Assert.StartsWith("V", result);
+            Assert.EndsWith("III", result);
         }
 
         [Fact]
@@ -149,6 +151,20 @@ namespace RomanNumerals.Tests
             string result = _converter.Convert(4);
             Assert.Equal("IV", result);
             Assert.DoesNotContain("IIII", result);
+        }
+
+                [Fact]
+        public void Converts6ToVI_AdditiveConstruction()
+        {
+            string result = _converter.Convert(6);
+            Assert.Equal("VI", result);
+        }
+
+        [Fact]
+        public void Converts15ToXV_AdditiveConstruction()
+        {
+            string result = _converter.Convert(15);
+            Assert.Equal("XV", result);
         }
 
         [Fact]
