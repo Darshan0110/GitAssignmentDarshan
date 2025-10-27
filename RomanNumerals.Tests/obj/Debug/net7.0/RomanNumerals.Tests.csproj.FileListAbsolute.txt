@@ -100,3 +100,6 @@ C:\Users\darshan.naidoo\desktop\gitAssignmentDarshan\RomanNumerals.Tests\obj\Deb
 C:\Users\darshan.naidoo\desktop\gitAssignmentDarshan\RomanNumerals.Tests\obj\Debug\net7.0\RomanNumerals.Tests.pdb
 C:\Users\darshan.naidoo\desktop\gitAssignmentDarshan\RomanNumerals.Tests\obj\Debug\net7.0\RomanNumerals.Tests.genruntimeconfig.cache
 C:\Users\darshan.naidoo\desktop\gitAssignmentDarshan\RomanNumerals.Tests\obj\Debug\net7.0\ref\RomanNumerals.Tests.dll
+C:\Users\darshan.naidoo\desktop\gitassignmentdarshan\RomanNumerals.Tests\bin\Debug\net7.0\RomanNumerals.deps.json
+C:\Users\darshan.naidoo\desktop\gitassignmentdarshan\RomanNumerals.Tests\bin\Debug\net7.0\RomanNumerals.runtimeconfig.json
+C:\Users\darshan.naidoo\desktop\gitassignmentdarshan\RomanNumerals.Tests\bin\Debug\net7.0\RomanNumerals.exe
