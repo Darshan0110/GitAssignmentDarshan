@@ -88,7 +88,12 @@ namespace RomanNumerals.Test
             Assert.Equal("IV", result);
         }
 
-
+        [Fact]
+        public void Converts9ToIX()
+        {
+            string result = _converter.Convert(9);
+            Assert.Equal("IX", result);
+        }
 
         
     }
