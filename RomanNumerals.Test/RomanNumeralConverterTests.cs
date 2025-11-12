@@ -135,7 +135,15 @@ namespace RomanNumerals.Test
         {
             string result = _converter.Convert(3000);
             Assert.Equal("MMM", result);
-        } 
+        }
+
+        [Fact]
+        public void Converts444ToCDXLIV()
+        {
+            string result = _converter.Convert(444);
+            Assert.Equal("CDXLIV", result);
+        }
+
 
 
     }
