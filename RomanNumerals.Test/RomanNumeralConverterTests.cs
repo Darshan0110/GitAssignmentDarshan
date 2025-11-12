@@ -109,6 +109,14 @@ namespace RomanNumerals.Test
             Assert.Equal("C", result);
         }
 
+        [Fact]
+        public void Converts500ToD()
+        {
+            string result = _converter.Convert(500);
+            Assert.Equal("D", result);
+        }
+
+
 
     }
 }
