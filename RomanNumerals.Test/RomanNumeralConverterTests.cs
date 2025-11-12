@@ -95,6 +95,13 @@ namespace RomanNumerals.Test
             Assert.Equal("IX", result);
         }
 
-        
+        [Fact]
+        public void Converts40ToXL()
+        {
+            string result = _converter.Convert(40);
+            Assert.Equal("XL", result);
+        }
+
+
     }
 }
