@@ -179,6 +179,14 @@ namespace RomanNumerals.Test
             Assert.Equal("CM", result);
         }
 
+        [Fact]
+        public void Converts1666ToMDCLXVI()
+        {
+            string result = _converter.Convert(1666);
+            Assert.Equal("MDCLXVI", result);
+        }
+
+
 
 
     }
