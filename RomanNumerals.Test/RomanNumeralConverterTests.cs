@@ -102,6 +102,13 @@ namespace RomanNumerals.Test
             Assert.Equal("XL", result);
         }
 
+        [Fact]
+        public void Converts100ToC()
+        {
+            string result = _converter.Convert(100);
+            Assert.Equal("C", result);
+        }
+
 
     }
 }
