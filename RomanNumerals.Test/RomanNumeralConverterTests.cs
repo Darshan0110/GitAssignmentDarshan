@@ -74,6 +74,14 @@ namespace RomanNumerals.Test
             Assert.Equal("II", result);
         }
 
+        [Fact]
+        public void Converts10ToX()
+        {
+            string result = _converter.Convert(10);
+            Assert.Equal("X", result);
+        }
+
+
         
     }
 }
