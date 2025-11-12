@@ -151,6 +151,14 @@ namespace RomanNumerals.Test
             Assert.Equal("XC", result);
         }
 
+        [Fact]
+        public void Converts2999ToMMCMXCIX()
+        {
+            string result = _converter.Convert(2999);
+            Assert.Equal("MMCMXCIX", result);
+        }
+
+
 
 
 
