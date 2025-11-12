@@ -130,5 +130,13 @@ namespace RomanNumerals.Test
             Assert.Equal("MCMLXXXIV", result);
         }
 
+        [Fact]
+        public void Converts3000ToMMM()
+        {
+            string result = _converter.Convert(3000);
+            Assert.Equal("MMM", result);
+        } 
+
+
     }
 }
