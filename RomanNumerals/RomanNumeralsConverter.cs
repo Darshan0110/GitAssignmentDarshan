@@ -5,6 +5,7 @@ namespace RomanNumerals
     public class RomanNumeralConverter
     {
 
+        private static readonly string[] Thousands = { "", "M", "MM", "MMM" };
         private static readonly string[] Hundreds = { "", "C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "CM" };
         private static readonly string[] Tens = { "", "X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC" };
         private static readonly string[] Ones = { "", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX" };
@@ -20,6 +21,7 @@ namespace RomanNumerals
 
 
             return
+            Thousands[number / 1000] +
             Hundreds[(number / 100) % 10] +
             Tens[(number / 10) % 10] +
             Ones[number % 10];
