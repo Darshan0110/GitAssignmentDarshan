@@ -25,7 +25,18 @@ namespace RomanNumerals.Test
 
             var exception = Assert.Throws<ArgumentOutOfRangeException>(
                 () => _converter.Convert(negativeNumber));
-            
+
+            Assert.Contains("must be between 1 and 3000", exception.Message);
+        }
+        
+        [Fact]
+        public void RejectsZero()
+        {
+            int zero = 0;
+
+            var exception = Assert.Throws<ArgumentOutOfRangeException>(
+            () => _converter.Convert(zero));
+    
             Assert.Contains("must be between 1 and 3000", exception.Message);
         }
     }
