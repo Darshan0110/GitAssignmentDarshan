@@ -172,6 +172,14 @@ namespace RomanNumerals.Test
             Assert.Equal("CD", result);
         }
 
+        [Fact]
+        public void Converts900ToCM()
+        {
+            string result = _converter.Convert(900);
+            Assert.Equal("CM", result);
+        }
+
+
 
     }
 }
