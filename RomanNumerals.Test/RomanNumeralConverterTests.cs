@@ -65,6 +65,15 @@ namespace RomanNumerals.Test
             string result = _converter.Convert(5);
             Assert.Equal("V", result);
         }
+
+
+        [Fact]
+        public void Converts2ToII()
+        {
+            string result = _converter.Convert(2);
+            Assert.Equal("II", result);
+        }
+
         
     }
 }
