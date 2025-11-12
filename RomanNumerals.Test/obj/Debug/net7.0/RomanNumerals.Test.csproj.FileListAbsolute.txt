@@ -1,4 +1,3 @@
-C:\Users\darshan.naidoo\desktop\GitAssignmentDarshan\RomanNumerals.Test\bin\Debug\net7.0\CoverletSourceRootsMapping
 C:\Users\darshan.naidoo\desktop\GitAssignmentDarshan\RomanNumerals.Test\bin\Debug\net7.0\testhost.dll
 C:\Users\darshan.naidoo\desktop\GitAssignmentDarshan\RomanNumerals.Test\bin\Debug\net7.0\testhost.exe
 C:\Users\darshan.naidoo\desktop\GitAssignmentDarshan\RomanNumerals.Test\bin\Debug\net7.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
