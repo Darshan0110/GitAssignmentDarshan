@@ -12,6 +12,8 @@ namespace RomanNumerals
                     nameof(number),
                     "Number must be between 1 and 3000 inclusive.");
             }
+
+            if (number == 1) return "I";
             
             return "";
         }
