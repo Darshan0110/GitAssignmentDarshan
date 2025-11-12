@@ -193,5 +193,12 @@ namespace RomanNumerals.Test
             Assert.Equal("XCIX", result);
         }
 
+        [Fact]
+        public void Converts1999ToMCMXCIX()
+        {
+            string result = _converter.Convert(1999);
+            Assert.Equal("MCMXCIX", result);
+        }
+
     }
 }
