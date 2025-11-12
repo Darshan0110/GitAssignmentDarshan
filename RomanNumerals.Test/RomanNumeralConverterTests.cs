@@ -158,9 +158,12 @@ namespace RomanNumerals.Test
             Assert.Equal("MMCMXCIX", result);
         }
 
-
-
-
+        [Fact]
+        public void Converts49ToXLIX()
+        {
+            string result = _converter.Convert(49);
+            Assert.Equal("XLIX", result);
+        }
 
     }
 }
