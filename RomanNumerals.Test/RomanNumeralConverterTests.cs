@@ -144,6 +144,14 @@ namespace RomanNumerals.Test
             Assert.Equal("CDXLIV", result);
         }
 
+        [Fact]
+        public void Converts90ToXC()
+        {
+            string result = _converter.Convert(90);
+            Assert.Equal("XC", result);
+        }
+
+
 
 
     }
