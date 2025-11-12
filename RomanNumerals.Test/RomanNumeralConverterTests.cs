@@ -81,6 +81,14 @@ namespace RomanNumerals.Test
             Assert.Equal("X", result);
         }
 
+        [Fact]
+        public void Converts4ToIV()
+        {
+            string result = _converter.Convert(4);
+            Assert.Equal("IV", result);
+        }
+
+
 
         
     }
