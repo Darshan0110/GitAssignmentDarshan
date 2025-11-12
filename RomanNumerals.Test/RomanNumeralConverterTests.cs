@@ -165,5 +165,13 @@ namespace RomanNumerals.Test
             Assert.Equal("XLIX", result);
         }
 
+        [Fact]
+        public void Converts400ToCD()
+        {
+            string result = _converter.Convert(400);
+            Assert.Equal("CD", result);
+        }
+
+
     }
 }
