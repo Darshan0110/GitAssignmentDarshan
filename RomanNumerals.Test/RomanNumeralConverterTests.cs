@@ -123,8 +123,12 @@ namespace RomanNumerals.Test
             Assert.Equal("M", result);
         }
 
-
-
+        [Fact]
+        public void Converts1984ToMCMLXXXIV()
+        {
+            string result = _converter.Convert(1984);
+            Assert.Equal("MCMLXXXIV", result);
+        }
 
     }
 }
