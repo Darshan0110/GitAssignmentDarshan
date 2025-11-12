@@ -116,6 +116,14 @@ namespace RomanNumerals.Test
             Assert.Equal("D", result);
         }
 
+        [Fact]
+        public void Converts1000ToM()
+        {
+            string result = _converter.Convert(1000);
+            Assert.Equal("M", result);
+        }
+
+
 
 
     }
