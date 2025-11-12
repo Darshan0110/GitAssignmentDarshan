@@ -5,6 +5,7 @@ namespace RomanNumerals
     public class RomanNumeralConverter
     {
 
+        private static readonly string[] Tens = { "", "X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC" };
         private static readonly string[] Ones = { "", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX" };
         
         public string Convert(int number)
@@ -17,7 +18,7 @@ namespace RomanNumerals
             }
 
             
-            return Ones[number % 10];
+            return Tens[(number / 10) % 10] + Ones[number % 10];
         }
     }
 }
