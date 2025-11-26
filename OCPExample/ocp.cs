@@ -38,6 +38,24 @@ public class PremiumMembership : Membership
         return months < 12 ? 600 * months : (500 * months) + 200;
     }
 }
+
+public class VIPMembership : Membership
+{
+    public VIPMembership()
+    {
+        Name = "VIP";
+    }
+
+    public override double CalculateDiscount(double purchaseAmount)
+    {
+        return 0.20;
+    }
+
+    public override double CalculateMembershipCost(int months)
+    {
+        return months < 18 ? 900 * months : (550 * months) + 300;
+    }
+}
     
     public abstract class Membership
 {
