@@ -3,6 +3,23 @@ using System.Collections.Generic;
 
 namespace OCPExample
 {
+    public class RegularMembership : Membership
+{
+    public RegularMembership()
+    {
+        Name = "Regular";
+    }
+
+    public override double CalculateDiscount(double purchaseAmount)
+    {
+        return 0.05;
+    }
+
+    public override double CalculateMembershipCost(int months)
+    {
+        return 400 * months;
+    }
+}
     
     public abstract class Membership
 {
