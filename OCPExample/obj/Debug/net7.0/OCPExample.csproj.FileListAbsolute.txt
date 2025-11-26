@@ -1,0 +1,14 @@
+C:\Users\darshan.naidoo\desktop\gitassignmentdarshan\OCPExample\bin\Debug\net7.0\OCPExample.exe
+C:\Users\darshan.naidoo\desktop\gitassignmentdarshan\OCPExample\bin\Debug\net7.0\OCPExample.deps.json
+C:\Users\darshan.naidoo\desktop\gitassignmentdarshan\OCPExample\bin\Debug\net7.0\OCPExample.runtimeconfig.json
+C:\Users\darshan.naidoo\desktop\gitassignmentdarshan\OCPExample\bin\Debug\net7.0\OCPExample.dll
+C:\Users\darshan.naidoo\desktop\gitassignmentdarshan\OCPExample\bin\Debug\net7.0\OCPExample.pdb
+C:\Users\darshan.naidoo\desktop\gitassignmentdarshan\OCPExample\obj\Debug\net7.0\OCPExample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\darshan.naidoo\desktop\gitassignmentdarshan\OCPExample\obj\Debug\net7.0\OCPExample.AssemblyInfoInputs.cache
+C:\Users\darshan.naidoo\desktop\gitassignmentdarshan\OCPExample\obj\Debug\net7.0\OCPExample.AssemblyInfo.cs
+C:\Users\darshan.naidoo\desktop\gitassignmentdarshan\OCPExample\obj\Debug\net7.0\OCPExample.csproj.CoreCompileInputs.cache
+C:\Users\darshan.naidoo\desktop\gitassignmentdarshan\OCPExample\obj\Debug\net7.0\OCPExample.dll
+C:\Users\darshan.naidoo\desktop\gitassignmentdarshan\OCPExample\obj\Debug\net7.0\refint\OCPExample.dll
+C:\Users\darshan.naidoo\desktop\gitassignmentdarshan\OCPExample\obj\Debug\net7.0\OCPExample.pdb
+C:\Users\darshan.naidoo\desktop\gitassignmentdarshan\OCPExample\obj\Debug\net7.0\OCPExample.genruntimeconfig.cache
+C:\Users\darshan.naidoo\desktop\gitassignmentdarshan\OCPExample\obj\Debug\net7.0\ref\OCPExample.dll
