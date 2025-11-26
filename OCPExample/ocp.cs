@@ -90,12 +90,12 @@ namespace OCPExample
     public class Customer
     {
         public string Name { get; set; }
-        public string MembershipType { get; set; }
+        public Membership Membership { get; set; }
 
-        public Customer(string name, string membershipType)
+        public Customer(string name, Membership membership)
         {
             Name = name;
-            MembershipType = membershipType;
+            Membership = membership;
         }
     }
 
