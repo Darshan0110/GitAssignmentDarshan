@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\darshan.naidoo\\desktop\\gitassignmentdarshan\\OCPExample\\OCPExample.csproj": {}
+    "C:\\Users\\darshan.naidoo\\Desktop\\GitAssignmentDarshan\\OCPExample\\OCPExample.csproj": {}
   },
   "projects": {
-    "C:\\Users\\darshan.naidoo\\desktop\\gitassignmentdarshan\\OCPExample\\OCPExample.csproj": {
+    "C:\\Users\\darshan.naidoo\\Desktop\\GitAssignmentDarshan\\OCPExample\\OCPExample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\darshan.naidoo\\desktop\\gitassignmentdarshan\\OCPExample\\OCPExample.csproj",
+        "projectUniqueName": "C:\\Users\\darshan.naidoo\\Desktop\\GitAssignmentDarshan\\OCPExample\\OCPExample.csproj",
         "projectName": "OCPExample",
-        "projectPath": "C:\\Users\\darshan.naidoo\\desktop\\gitassignmentdarshan\\OCPExample\\OCPExample.csproj",
+        "projectPath": "C:\\Users\\darshan.naidoo\\Desktop\\GitAssignmentDarshan\\OCPExample\\OCPExample.csproj",
         "packagesPath": "C:\\Users\\darshan.naidoo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\darshan.naidoo\\desktop\\gitassignmentdarshan\\OCPExample\\obj\\",
+        "outputPath": "C:\\Users\\darshan.naidoo\\Desktop\\GitAssignmentDarshan\\OCPExample\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\darshan.naidoo\\AppData\\Roaming\\NuGet\\NuGet.Config",
