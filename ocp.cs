@@ -65,6 +65,24 @@ public class VIPMembership : Membership
         return months < 18 ? 900 * months : (550 * months) + 300;
     }
 }
+
+public class BasicMembership : Membership
+{
+    public BasicMembership()
+    {
+        Name = "Basic";
+    }
+
+    public override double CalculateDiscount(double purchaseAmount)
+    {
+        return purchaseAmount > 1000 ? 0.03 : 0.00;
+    }
+
+    public override double CalculateMembershipCost(int months)
+    {
+        return 200 * months;
+    }
+}
     public class Customer
     {
         public string Name { get; set; }
