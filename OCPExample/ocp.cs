@@ -29,6 +29,24 @@ namespace OCPExample
             return 400 * months;
         }
     }
+
+    public class PremiumMembership : Membership
+    {
+        public PremiumMembership()
+        {
+            Name = "Premium";
+        }
+
+        public override double CalculateDiscount(double purchaseAmount)
+            {
+            return 0.10;
+        }
+
+        public override double CalculateMembershipCost(int months)
+        {
+            return months < 12 ? 600 * months : (500 * months) + 200;
+        }
+    }
     
     public class Customer
     {
