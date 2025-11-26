@@ -121,31 +121,42 @@ namespace OCPExample
         {
             var customers = new List<Customer>
             {
-                new Customer("Alice", "Regular"),
-                new Customer("Bob", "Premium"),
-                new Customer("Cathy", "VIP")
+                new Customer("Alice", new RegularMembership()),
+                new Customer("Bob", new PremiumMembership()),
+                new Customer("Cathy", new VIPMembership()),
+                new Customer("John" , new BasicMembership())
+
             };
 
             var discountCalculator = new DiscountCalculator();
 
+            Console.WriteLine("===DISCOUNTS===\n");
+
             foreach (var c in customers)
             {
-                double discount = discountCalculator.CalculateDiscount(c);
-                Console.WriteLine($"{c.Name} ({c.MembershipType}) gets {discount * 100}% discount.");
+                double discount500 = discountCalculator.CalculateDiscount(c, 500);
+                Console.WriteLine($"{c.Name} ({c.Membership.Name}) with R500: {discount500 * 100}% discount.");
+
+                double discount1500 = discountCalculator.CalculateDiscount(c, 1500);
+                Console.WriteLine($"{c.Name} ({c.Membership.Name}) with R1500: {discount1500 * 100}% discount");
+                Console.WriteLine();
             }
+
+            Console.WriteLine("\n===MEMBERSHIP COSTS ===\n");
 
             var membershipCalculator = new MembershipCostCalculator();
 
             foreach (var c in customers)
             {
-                double membershipCost = membershipCalculator.MembershipCostCalculator(c, 12);
-                Console.WriteLine($"{c.Name} ({c.MembershipType}) for 12 months costs {membershipCost}.");
+                double cost12 = membershipCalculator.CalculateMembershipCost(c, 12);
+                Console.WriteLine($"{c.Name} ({c.Membership.Name}) 12 months: R{cost12}.");
 
-                membershipCost = membershipCalculator.MembershipCostCalculator(c, 18);
-                Console.WriteLine($"{c.Name} ({c.MembershipType}) for 18 months costs {membershipCost}.");
+                double cost18 = membershipCalculator.CalculateMembershipCost(c, 18);
+                Console.WriteLine($"{c.Name} ({c.Membership.Name}) 18 months: R{cost18}.");
 
-                membershipCost = membershipCalculator.MembershipCostCalculator(c, 24);
-                Console.WriteLine($"{c.Name} ({c.MembershipType}) for 24 months costs {membershipCost}.");
+                double cost24 = membershipCalculator.CalculateMembershipCost(c, 24);
+                Console.WriteLine($"{c.Name} ({c.Membership.Name}) 24 months: R{cost24}.");
+                Console.WriteLine();
             }
         }
     }
