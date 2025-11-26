@@ -3,6 +3,14 @@ using System.Collections.Generic;
 
 namespace OCPExample
 {
+
+    public abstract class Membership
+{
+    public string Name { get; protected set; }
+    
+    public abstract double CalculateDiscount(double purchaseAmount);
+    public abstract double CalculateMembershipCost(int months);
+}
     public class Customer
     {
         public string Name { get; set; }
